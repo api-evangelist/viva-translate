@@ -1,8 +1,25 @@
 aid: viva-translate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/viva-translate.png
 name: Viva Translate
-description: Viva Translate is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Viva Translate is an AI-powered real-time translation platform that acts
+  as a personal meeting analyst, delivering live translation, transcription, automatic
+  summaries, and action items across Google Meet, Microsoft Teams, and Zoom. Reported
+  usage spans 1M+ minutes translated, 20+ countries, and 1.8k+ companies. The company
+  ships a consumer/B2B product (no public developer API, SDK, or developer portal at
+  this time) and has open-sourced its browser-based translation tooling as a Chrome
+  extension that consumes third-party DeepL, Gladia, and OpenAI APIs. Surfaced as a
+  portfolio company of general-catalyst and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/viva-translate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Translation
+- Real-Time Translation
+- Transcription
+- Meetings
+- AI
+- Localization
+- Speech-to-Text
 apis: []
+common:
+- type: Website
+  url: https://www.vivatranslate.com
+- type: GitHubOrganization
+  url: https://github.com/just-an-experiment
+- type: SourceCode
+  url: https://github.com/just-an-experiment/viva-translate
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
