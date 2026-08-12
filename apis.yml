@@ -41,6 +41,9 @@ tags:
 - Speech-to-Text
 apis: []
 common:
+- type: License
+  name: MIT
+  url: https://github.com/just-an-experiment/viva-translate/blob/main/LICENSE
 - type: Website
   url: https://www.vivatranslate.com
 - type: GitHubOrganization
