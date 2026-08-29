@@ -1,4 +1,16 @@
 aid: viva-translate
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -50,6 +62,12 @@ tags_raw:
 - Speech-to-Text
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/just-an-experiment/viva-translate/issues
+- type: Releases
+  url: https://github.com/just-an-experiment/viva-translate/releases
+- type: ContributionGuide
+  url: https://github.com/ai-learning-tools/viva-translate/blob/main/CONTRIBUTING.md
 - type: License
   name: MIT
   url: https://github.com/just-an-experiment/viva-translate/blob/main/LICENSE
