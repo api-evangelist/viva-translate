@@ -1,0 +1,25 @@
+# Front Door AI Index — viva-translate — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: viva-translate
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.vivatranslate.com
+  final_host: www.vivatranslate.com
+  ownership: own
+  owner: viva-translate
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 15.96
+  words: 188
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 3
